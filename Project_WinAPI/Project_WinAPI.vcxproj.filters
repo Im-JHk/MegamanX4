@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API_Framework">
+      <UniqueIdentifier>{46672aad-ad62-4e08-a9ba-43293b780477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Manager">
+      <UniqueIdentifier>{e4e717bb-8a92-4838-b56c-d76942169d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Image">
+      <UniqueIdentifier>{c21c9d77-a2ea-440c-8553-a0ebc3d998df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Scene">
+      <UniqueIdentifier>{b0bcbe6d-0589-4eb3-bd20-4016cc80a357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Utility">
+      <UniqueIdentifier>{8268efd6-d1fc-4f1b-bbc4-6e61794f95fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\DesignPattern">
+      <UniqueIdentifier>{464c57c4-4ee4-4f10-8c6c-5ea58e871650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\DesignPattern\Singleton">
+      <UniqueIdentifier>{94e1e10a-57c6-4f8b-97f9-1172f1194698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Stdafx">
+      <UniqueIdentifier>{947e3213-8cdf-47e6-845b-e4349a887252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Object">
+      <UniqueIdentifier>{7c2a24da-a8c4-4392-a5b7-0b845578b8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Collider">
+      <UniqueIdentifier>{ab736ad0-13af-49d4-ba8f-78903a5c9c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\Timer">
+      <UniqueIdentifier>{be1443ac-70ac-4d26-a8ac-cd7b87a170c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\GameNode">
+      <UniqueIdentifier>{d27c9a4b-4498-4c9e-85e6-2ff7ded179b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_Framework\MainGame">
+      <UniqueIdentifier>{b0640466-1ad8-4ec2-bd46-600f83bbabe8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameScene.h">
+      <Filter>API_Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>API_Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroFunction.h">
+      <Filter>API_Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFunction.h">
+      <Filter>API_Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>API_Framework\DesignPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>API_Framework\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>API_Framework\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>API_Framework\Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>API_Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>API_Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>API_Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>API_Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>API_Framework\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>API_Framework\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>API_Framework\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>API_Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>API_Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>API_Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>API_Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>API_Framework\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>API_Framework\MainGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>API_Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>API_Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>API_Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>API_Framework\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>API_Framework\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>API_Framework\Stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>API_Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>API_Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>API_Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>API_Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>API_Framework\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>API_Framework\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>API_Framework\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>API_Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>API_Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>API_Framework\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>API_Framework\MainGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
